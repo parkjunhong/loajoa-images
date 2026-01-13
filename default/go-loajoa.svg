@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <style>
+      .navy { fill: #0a1021; }
+      .navy2 { fill: #0e162c; }
+      .gold { stroke: #dcb450; }
+      .gold2 { stroke: #ffdc82; }
+      .ice { stroke: #78c8ff; fill: #78c8ff; }
+      .white { stroke: #f5f8ff; }
+    </style>
+  </defs>
+
+  <!-- Hex badge -->
+  <path class="navy" d="M256 41
+    L436 145
+    L436 367
+    L256 471
+    L76 367
+    L76 145 Z"/>
+  <path class="navy2" d="M256 65
+    L417 158
+    L417 354
+    L256 447
+    L95 354
+    L95 158 Z"/>
+  <path d="M256 41 L436 145 L436 367 L256 471 L76 367 L76 145 Z"
+        fill="none" class="gold" stroke-width="18" />
+
+  <!-- Clipboard body -->
+  <rect x="92" y="96" width="328" height="340" rx="28" ry="28"
+        fill="#121e3e" stroke="#465f96" stroke-width="6"/>
+  <!-- Clip -->
+  <rect x="204" y="74" width="104" height="52" rx="18" ry="18"
+        fill="#1e2e5c" stroke="#dcb450" stroke-width="5"/>
+  <rect x="236" y="86" width="40" height="26" rx="12" ry="12" fill="#0a1021"/>
+
+  <!-- Checklist -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 1 -->
+    <rect x="130" y="156" width="30" height="30" rx="6"
+          class="gold2" stroke-width="6"/>
+    <path d="M138 172 L146 180 L156 164" class="ice" stroke-width="6" fill="none"/>
+    <path d="M190 171 H378" class="white" stroke-width="6"/>
+    <!-- 2 -->
+    <rect x="130" y="217" width="30" height="30" rx="6"
+          class="gold2" stroke-width="6"/>
+    <path d="M138 233 L146 241 L156 225" class="ice" stroke-width="6" fill="none"/>
+    <path d="M190 232 H378" class="white" stroke-width="6"/>
+    <!-- 3 -->
+    <rect x="130" y="278" width="30" height="30" rx="6"
+          class="gold2" stroke-width="6"/>
+    <path d="M190 293 H360" class="white" stroke-width="6"/>
+  </g>
+
+  <!-- Compass star -->
+  <g fill="none" stroke="#ffdc82" stroke-width="5">
+    <path d="M366 332
+      L366 301
+      L376 329
+      L407 329
+      L381 346
+      L392 374
+      L366 357
+      L340 374
+      L351 346
+      L325 329
+      L356 329 Z"/>
+  </g>
+  <path d="M366 320 L378 332 L366 344 L354 332 Z" fill="#78c8ff"/>
+</svg>
